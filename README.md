@@ -1,4 +1,1 @@
-Derp
-====
-
-Herp
+This is just me starting to learn how to code in Java, please don't be too harsh on my unskillful coding skills.
