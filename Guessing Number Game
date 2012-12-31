@@ -1,0 +1,22 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class Opening {
+  
+  public static void main(String[] args) {
+
+		System.out.println("Welcome to Number Guessing Game! Guess a number between 0 to 9");
+		Scanner userInput = new Scanner(System.in);
+			int i = userInput.nextInt();
+
+		if (userInput.equals(answer)) {
+			System.out.println("Congratulation! That is the correct answer! Want to play again?");
+		}
+		else {
+			System.out.println("The Number you guessed is incorrect, try again!")
+		}
+		Random answer = new Random();
+		answer.setSeed();
+	}
+
+}
